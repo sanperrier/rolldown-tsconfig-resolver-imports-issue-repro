@@ -1,0 +1,16 @@
+{
+    "name": "simpler",
+    "version": "0.0.1",
+    "private": "true",
+    "type": "module",
+    "imports": {
+        "#base-tsconfig-json": "./common.tsconfig.json"
+    },
+    "scripts": {
+        "build": "rolldown -c"
+    },
+    "devDependencies": {
+        "rolldown": "^1.0.3",
+        "typescript": "^6.0.3"
+    }
+}
