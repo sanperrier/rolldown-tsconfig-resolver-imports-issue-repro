@@ -7,7 +7,7 @@
         "#base-tsconfig-json": "./common.tsconfig.json"
     },
     "scripts": {
-        "build": "rolldown -c"
+        "build": "npx rolldown --input index.ts --tsconfig tsconfig.json --format es --dir dist"
     },
     "devDependencies": {
         "rolldown": "^1.0.3",
