@@ -1,0 +1,17 @@
+{
+    "name": "root",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "packages/*"
+    ],
+    "exports": {
+        "./tsconfig.json": "./tsconfig.json"
+    },
+    "devDependencies": {
+        "rolldown": "^1.0.3",
+        "root": "file:",
+        "typescript": "^6.0.3"
+    }
+}
